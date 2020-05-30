@@ -482,7 +482,7 @@ public class CarrierConfigLoader extends ICarrierConfigLoader.Stub {
                     final String lastFingerprint = sharedPrefs.getString(KEY_FINGERPRINT, null);
                     if (!Build.FINGERPRINT.equals(lastFingerprint)) {
                         log(
-                                "Build date changed. old: "
+                                "Build fingerprint changed. old: "
                                         + lastFingerprint
                                         + " new: "
                                         + Build.FINGERPRINT);
